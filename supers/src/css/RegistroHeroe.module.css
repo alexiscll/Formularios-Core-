@@ -1,0 +1,35 @@
+.campo{
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo input {
+    padding: 5px;
+    border: none;
+    border: 1px solid #fff7;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.botonRegistrar{
+    padding: 8px 100px;
+    background-color: #0168aa;
+    color: #ffff;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.botonRegistrar:hover {
+    background-color: #013759;
+}
+
+.campoErrado{
+    color: red;
+}
